@@ -1,0 +1,14 @@
+server:
+  port: 8698
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/javawebdemo
+    username: root
+    password: root
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
